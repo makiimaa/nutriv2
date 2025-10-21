@@ -47,7 +47,7 @@ cp be-py/.env.example be-py/.env
 **backend/.env**
 
 ```env
-MONGODB_URI=mongodb://localhost:27017/nutrition4kids
+MONGODB_URI=mongodb://localhost:27017/nutv2
 JWT_SECRET=your_jwt_secret_key
 PORT=3000
 ```
@@ -62,7 +62,7 @@ PORT=3001
 **be-py/.env**
 
 ```env
-MONGODB_URI=mongodb://localhost:27017/nutrition4kids
+MONGODB_URI=mongodb://localhost:27017/nuv2
 AI_MODEL_PATH=./models
 PORT=8001
 ```
