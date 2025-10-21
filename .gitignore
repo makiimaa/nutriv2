@@ -1,0 +1,23 @@
+# Ignore environment files
+.env
+*.env
+.env.*
+!*.env.example
+
+# Node modules & build outputs
+node_modules/
+dist/
+.next/
+build/
+__pycache__/
+.venv/
+*.pyc
+
+# Expo artifacts
+.expo/
+.expo-shared/
+*.apk
+*.aab
+
+# MacOS system
+.DS_Store
